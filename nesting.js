@@ -51,7 +51,17 @@ var employees = [
 */
 
 //Code Here
-
+// function employeeUpdater () {
+// for(let key in employees){
+//   if(object[key] === 'Theo'){ 
+//     delete obj[key];
+//     if(object[key] === 'Lorie'){
+//       obj[department] = 'HR';
+//     }
+//   }
+// }
+// return employee
+// }
 
 
 ////////// PROBLEM 2 //////////
@@ -97,8 +107,8 @@ var cat = {
 */
 
 //Code Here
-var grumpyActivity;
-var fluffy2ndFriend;
+let grumpyActivity = cat.catFriends[0].activities[1];
+let fluffy2ndFriend = cat.catFriends[1].name;
 
 
 
@@ -140,6 +150,11 @@ var myCar = {
 
 //Code Here
 
+const recordCleaner = () => {
+  for(let i = 0; i < myCar.accidents.length; i++){
+    myCar.accidents[i].atFaultForAccident = false
+  }
+}
 
 
 ////////// PROBLEM 5 //////////
